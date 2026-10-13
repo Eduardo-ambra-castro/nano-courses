@@ -35,9 +35,9 @@ if cat == "ECONOMICA":
     if qtd_passageiros == 2:
         valor_desconto = valor_bruto * 0.03
     elif qtd_passageiros == 3:
-        valor_desconto = valor_bruto * 0.04  # Corrigido para '='
+        valor_desconto = valor_bruto * 0.04  
     elif qtd_passageiros >= 4:
-        valor_desconto = valor_bruto * 0.05  # Corrigido para '='
+        valor_desconto = valor_bruto * 0.05  
 
 elif cat == "EXECUTIVA":
     if qtd_passageiros == 2:
